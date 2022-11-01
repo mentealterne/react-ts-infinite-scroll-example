@@ -5,7 +5,7 @@ intersection Observer
 API.
 
 ## How to run in local environment
-Create a `.env` file in the root of the directory and add the following environment variables
+Create a `.env` file in the root of the project and add the following environment variables
 `REACT_APP_API_USERNAME = <your  username>`
 
 then run
