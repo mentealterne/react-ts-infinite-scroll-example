@@ -1,4 +1,4 @@
-# Custom React Infinite Autoscroll
+# Custom React Infinite scroll
 
 A simple project to demonstrate how to create a custom infinite scroll component in React + Typescript using
 intersection Observer
