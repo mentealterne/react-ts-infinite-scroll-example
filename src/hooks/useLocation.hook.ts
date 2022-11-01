@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import {ILocation} from "../types/types";
+import {API_USERNAME} from "../config";
 
 interface IUseLocations {
     locations: ILocation[];
@@ -23,7 +24,7 @@ function useLocations(start: number, limit: number): IUseLocations {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'username': 'amitphatak$r5labs.com'
+                    'username': API_USERNAME
                 },
                 body: JSON.stringify({start, limit})
             });
